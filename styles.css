@@ -88,10 +88,24 @@ head a:hover{
     background-size: cover;
     background-position: center center;
 }
-#somos-proya{
-    
+#hero h1{
+    color: white;
 }
 #somos-proya .container{
     text-align: center;
     padding: 200px 12px;
+}
+#nuestros-programas{
+    background-color: rgb(30, 30, 30);
+    color: white;
+    text-align: center;
+}
+#nuestros-programas .container{
+    padding: 100px 0px;
+}
+#nuestros-programas h2{
+    margin-top: 0%;
+}
+#nuestros-programas p{
+    display: none;
 }

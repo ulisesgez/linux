@@ -97,6 +97,31 @@ head a:hover{
 #hero button{
     font-size: 1.75em;
 }
+pre {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+}
+pre::before {
+    content: "Copiar";
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+pre code {
+    font-family: Consolas, monospace;
+    color: #333;
+    white-space: pre-wrap;
+}
+pre.code-copied::before {
+    content: "Copiado";
+}
 #somos-proya .container{
     text-align: center;
     padding: 200px 12px;

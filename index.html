@@ -111,6 +111,78 @@
                 </div>
             </div>
         </section>
+        <section id="x">
+            <div class="container">
+                <div class="img-container"></div>
+                <div class="texto">
+                    <h2>Basic <span class="color-acento">commands</span></h2>
+                    <p>El comando "bash nombre_archivo.sh" en Bash se utiliza para ejecutar un archivo de script de Bash con extensión ".sh". Al ejecutar esta línea de comandos, se iniciará una nueva instancia del intérprete de comandos Bash y se ejecutará el script contenido en el archivo "nombre_archivo.sh". Este comando es útil cuando se desea ejecutar un archivo de script de Bash de manera explícita.</p>
+                    <pre class="codigo">
+                        <code>
+                            bash nombre_archivo.sh
+                        </code>
+                    </pre>
+                </div>
+            </div>
+        </section>
+        <section id="x">
+            <div class="container">
+                <div class="img-container"></div>
+                <div class="texto">
+                    <h2>Basic <span class="color-acento">commands</span></h2>
+                    <p>El comando "echo $SHELL" en Bash se utiliza para imprimir en la salida estándar la ruta del intérprete de comandos utilizado actualmente por el usuario. Al ejecutar "echo $SHELL", se mostrará la ruta completa del intérprete de comandos (por ejemplo, /bin/bash) que se está utilizando para ejecutar los comandos en ese momento. Es útil para saber qué intérprete de comandos se está utilizando en tu entorno.</p>
+                    <pre class="codigo">
+                        <code>
+                            echo $SHELL
+                        </code>
+                    </pre>
+                </div>
+            </div>
+        </section>
+        <section id="x">
+            <div class="container">
+                <div class="img-container"></div>
+                <div class="texto">
+                    <h2>Basic <span class="color-acento">commands</span></h2>
+                    <p>El comando "ls -l" en Bash se utiliza para listar los archivos y directorios en el directorio actual en formato detallado. Al ejecutar "ls -l", se mostrará una lista de los archivos y directorios en columnas, con información adicional, como los permisos, el propietario, el tamaño, la fecha de modificación y el nombre del archivo o directorio. Es útil para obtener una visión más detallada de los archivos y directorios en un directorio específico.</p>
+                    <pre class="codigo">
+                        <code>
+                            ls -l
+                        </code>
+                    </pre>
+                </div>
+            </div>
+        </section>
+        <section id="x">
+            <div class="container">
+                <div class="img-container"></div>
+                <div class="texto">
+                    <h2>Basic <span class="color-acento">commands</span></h2>
+                    <p>El comando "chmod" en Bash se utiliza para cambiar los permisos de archivos y directorios. Permite modificar los permisos de lectura (r), escritura (w) y ejecución (x) para el propietario, grupo y otros usuarios.
+
+                        La sintaxis básica del comando es: "chmod [permisos] [archivo/directorio]".
+                        
+                        Para especificar los permisos, puedes utilizar números octales (por ejemplo, 755) o la notación simbólica (por ejemplo, u+rwx, g-w, o +x).
+                        Los permisos pueden ser representados por las letras u (propietario), g (grupo), o (otros), o por todos ellos combinados (ugo).
+                        Los permisos de lectura, escritura y ejecución se representan con las letras r, w y x, respectivamente.
+                        Por ejemplo, "chmod 755 archivo.sh" establecerá permisos de lectura, escritura y ejecución para el propietario y permisos de lectura y ejecución para el grupo y otros usuarios en el archivo "archivo.sh".</p>
+                    <pre class="codigo">
+                        <code>
+                            chmod 755 nombre_archivo.sh
+                        </code>
+                    </pre>
+                    <p>o</p>
+                    <pre class="codigo">
+                        <code>
+                            chmod u+rwx,g+r,o+x nombre_archivo.sh
+                        </code>
+                    </pre>
+                    <p>
+                        Esto establecerá los permisos adecuados en el archivo "nombre_archivo.sh". El propietario tendrá permisos de lectura, escritura y ejecución (u+rwx), el grupo tendrá permisos de lectura (g+r) y otros usuarios tendrán permisos de ejecución (o+x). Recuerda que puedes combinar diferentes letras para especificar los permisos para el propietario (u), grupo (g) y otros usuarios (o). Las letras r, w y x representan los permisos de lectura, escritura y ejecución, respectivamente.
+                    </p>
+                </div>
+            </div>
+        </section>
         <!--
             <section id="nuestros-programas">
             <div class="container">

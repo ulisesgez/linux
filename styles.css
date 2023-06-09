@@ -31,10 +31,10 @@ button{
     border: 1px solid black;
     box-shadow: 2px 2px 10px black;
     color: white;
-    background-color: blueviolet;
+    background-color: rgb(0, 255, 0);
 }
 button:hover{
-    background-color: rgb(165, 82, 244);
+    background-color: rgb(0, 255, 0);
 }
 .container{
      max-width: 1400px;
@@ -44,7 +44,7 @@ header{
     background-color: rgb(0, 0, 0);
 }
 .color-acento{
-    color: blueviolet;
+    color: rgb(0, 255, 0);
 }
 header .logo{
     margin: 0;
@@ -71,7 +71,7 @@ header a{
     color: rgb(0, 255, 0);
 }
 head a:hover{
-    color: blueviolet;
+    color: rgb(0, 255, 0);
 }
 #hero{
     display: flex;

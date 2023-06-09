@@ -127,77 +127,6 @@ pre.code-copied::before {
     text-align: center;
     padding: 100px 12px;
 }
-#nuestros-programas{
-    background-color: rgb(30, 30, 30);
-    color: white;
-    text-align: center;
-}
-#nuestros-programas .container{
-    padding: 150px 12px;
-}
-#nuestros-programas h2{
-    margin-top: 0%;
-    font-size: 3.2em;
-}
-#nuestros-programas p{
-    display: none;
-}
-#nuestros-programas .carta{
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    padding: 50px;
-    margin: 20px;
-    border-radius: 15px;
-}
-.carta:first-child{
-    background-image: linear-gradient(
-        0deg,
-        rgb(0,0,0,0.5),
-        rgb(0,0,0,0.5)
-        ),
-    url("https://images.pexels.com/photos/11035386/pexels-photo-11035386.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
-}
-.carta:nth-child(2){
-    background-image: linear-gradient(
-        0deg,
-        rgb(0,0,0,0.5),
-        rgb(0,0,0,0.5)
-        ),
-    url("https://images.pexels.com/photos/11035380/pexels-photo-11035380.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
-}
-.carta:nth-child(3){
-    background-image: linear-gradient(
-        0deg,
-        rgb(0,0,0,0.5),
-        rgb(0,0,0,0.5)
-        ),
-    url("https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
-}
-#caracteristicas .container{
-    text-align: center;
-    padding: 200px;
-}
-#caracteristicas li{
-    margin: 15px 0px;
-    font-weight: bold;
-}
-#final{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-color: black;
-    color: white;
-    height: 80vh;
-}
-#final h2{
-    font-size: 9vw;
-}
-#final button{
-    font-size: 5vw;
-}
 footer{
     background-color: rgb(230, 230, 230);
 }
@@ -244,32 +173,6 @@ footer .container{
     }
     #basic h2{
         margin-top: 0;
-    }
-    #nuestros-programas .programas{
-        display: flex;
-        justify-content: center;
-    }
-    #nuestros-programas p{
-        display: block;
-        margin-bottom: 30px;
-    }
-    #nuestros-progarmas h3{
-        margin-top: 0;
-    }
-    #nuestros-programas .carta{
-        padding: 50px;
-    }
-    #caracteristicas .container{
-        text-align: initial;
-    }
-    #caracteristicas ul{
-        margin-left: 100px;
-    }
-    #final h2{
-        font-size: 5em;
-    }
-    #final button{
-        font-size: 2em;
     }
     footer .container{
         justify-content: flex-end;

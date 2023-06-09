@@ -122,7 +122,7 @@ pre code {
 pre.code-copied::before {
     content: "Copiado";
 }
-#somos-proya .container{
+#basic .container{
     text-align: center;
     padding: 100px 12px;
 }
@@ -228,11 +228,11 @@ footer .container{
     #hero h1{
         font-size: 5em;
     }
-    #somos-proya .container{
+    #basic .container{
         display: flex;
         justify-content: space-evenly;
     }
-    #somos-proya .texto{
+    #basic .texto{
         width: 50%;
         max-width: 600px;
         text-align: initial;
@@ -241,10 +241,10 @@ footer .container{
         flex-direction: column;
         justify-content: center;
     }
-    #somos-proya h2{
+    #basic h2{
         margin-top: 0;
     }
-    #somos-proya .img-container{
+    #basic .img-container{
         background-image: url("https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
         background-size: cover;
         background-position: center;

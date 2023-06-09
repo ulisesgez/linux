@@ -98,9 +98,9 @@ head a:hover{
     font-size: 1.75em;
 }
 pre {
-    background-color: #f4f4f4;
+    background-color: #000000;
     padding: 10px;
-    border-radius: 4px;
+    border-radius: 10px;
     overflow: hidden;
     position: relative;
     z-index: -1;
@@ -117,7 +117,7 @@ pre::before {
 }
 pre code {
     font-family: Consolas, monospace;
-    color: #333;
+    color: #ffffff;
     white-space: pre-wrap;
 }
 pre.code-copied::before {

@@ -124,7 +124,7 @@ pre.code-copied::before {
 }
 #basic .container{
     text-align: center;
-    padding: 100px 12px;
+    padding: 50px 5px;
 }
 footer{
     background-color: rgb(230, 230, 230);
@@ -159,13 +159,12 @@ footer .container{
     }
     #basic .container{
         display: flex;
-        justify-content: space-evenly;
+        justify-content: center;
     }
     #basic .texto{
         width: 50%;
-        max-width: 600px;
+        max-width: 800px;
         text-align: initial;
-        padding-left: 30px;
         display: flex;
         flex-direction: column;
         justify-content: center;

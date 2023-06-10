@@ -8,6 +8,12 @@ body{
     font-family: 'Roboto', sans-serif;
     margin: 0;
 }
+main{
+    background-color: rgb(29, 29, 29);
+}
+main p{
+    color: white;
+}
 h1{
     font-size: 3.5em;
 }
@@ -123,7 +129,7 @@ pre.code-copied::before {
     content: "Copiado";
 }
 #basic .container{
-    text-align: center;
+    text-align: initial;
     padding: 50px 5px;
 }
 footer{

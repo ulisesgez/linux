@@ -1,0 +1,9 @@
+crear el archivo: vim nombreArchivo.extension
+isertar texto en el documento: tecla i
+guardar la info del documento: esc + :w
+salir del documeto una vez guardamos cambios en vim: esc + :q
+salir del documento omitiendo los cambios realizados: esc + :q!
+guardar cambios y salir de vim: esc + :wq
+o tambien podemos hacerlo con: esc + :x
+ver lo que hay en un archivo en la terminal sin necesidad de abrir el documento: cat nombreArchivo.extension
+para editar un archivo sin estar en la carpeta: escribimos vim, enter, y dentro :edit + ruta/nombreArchivo.extension

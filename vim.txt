@@ -7,3 +7,10 @@ guardar cambios y salir de vim: esc + :wq
 o tambien podemos hacerlo con: esc + :x
 ver lo que hay en un archivo en la terminal sin necesidad de abrir el documento: cat nombreArchivo.extension
 para editar un archivo sin estar en la carpeta: escribimos vim, enter, y dentro :edit + ruta/nombreArchivo.extension
+navegar sin las teclas de flecha:
+j -> bajar
+k -> subir
+l -> derecha
+h -> izquierda
+enumerar las lineas del cocumento: esc + :set number
+o tambien podemos hacerlo con: esc + :set nu
